@@ -12,7 +12,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     conf.vm.box_check_update = false
     conf.vm.network "private_network", ip: "192.168.33.10"
     conf.vm.provision :shell, path: "bootstrap.sh"
-    conf.vm.provision :shell, path: "bootstrap_vpnserver.sh"
+    conf.vm.provision :shell, path: "vpnserver/bootstrap.sh"
     conf.ssh.forward_agent = true
   end
 
@@ -21,7 +21,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     conf.vm.box_check_update = false
     conf.vm.network "private_network", ip: "192.168.33.11"
     conf.vm.provision :shell, path: "bootstrap.sh"
-    conf.vm.provision :shell, path: "bootstrap_webserver.sh"
+    conf.vm.provision :shell, path: "webserver/bootstrap.sh"
     conf.ssh.forward_agent = true
   end
 
@@ -30,7 +30,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     conf.vm.box_check_update = false
     conf.vm.network "private_network", ip: "192.168.33.12"
     conf.vm.provision :shell, path: "bootstrap.sh"
-    conf.vm.provision :shell, path: "bootstrap_client1.sh"
+    conf.vm.provision :shell, path: "client1/bootstrap.sh"
     conf.ssh.forward_agent = true
   end
 
@@ -39,7 +39,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     conf.vm.box_check_update = false
     conf.vm.network "private_network", ip: "192.168.33.13"
     conf.vm.provision :shell, path: "bootstrap.sh"
-    conf.vm.provision :shell, path: "bootstrap_client2.sh"
+    conf.vm.provision :shell, path: "client2/bootstrap.sh"
     conf.ssh.forward_agent = true
   end
 

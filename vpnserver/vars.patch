@@ -1,0 +1,21 @@
+--- vars.original	2014-11-18 19:30:02.000000000 +0000
++++ vars	2014-11-18 19:31:36.000000000 +0000
+@@ -61,12 +61,12 @@
+ # These are the default values for fields
+ # which will be placed in the certificate.
+ # Don't leave any of these fields blank.
+-export KEY_COUNTRY="US"
+-export KEY_PROVINCE="CA"
+-export KEY_CITY="SanFrancisco"
+-export KEY_ORG="Fort-Funston"
+-export KEY_EMAIL="me@myhost.mydomain"
+-export KEY_OU="MyOrganizationalUnit"
++export KEY_COUNTRY="GB"
++export KEY_PROVINCE=""
++export KEY_CITY="London"
++export KEY_ORG="Example"
++export KEY_EMAIL="mail@example.com"
++export KEY_OU="Sandobox"
+ 
+ # X509 Subject Field
+ export KEY_NAME="EasyRSA"
