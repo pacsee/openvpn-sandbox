@@ -70,9 +70,9 @@ cp vpnserver.crt vpnserver.key ca.crt dh2048.pem /etc/openvpn
 cp 01.pem serial ca.key /vagrant/vpnserver/keys
 
 cp vpnserver.crt vpnserver.key ca.crt dh2048.pem /vagrant/vpnserver/keys
-cp ca.crt client1.crt /vagrant/webserver/keys
-cp ca.crt client1.crt /vagrant/client1/keys
-cp ca.crt client1.crt /vagrant/client2/keys
+cp ca.crt webserver.crt webserver.key /vagrant/webserver/keys
+cp ca.crt client1.crt client1.key /vagrant/client1/keys
+cp ca.crt client2.crt client2.key /vagrant/client2/keys
 
 cp /vagrant/vpnserver/openvpn.conf /etc/openvpn/
 service openvpn start

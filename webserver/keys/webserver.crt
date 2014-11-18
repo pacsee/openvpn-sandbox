@@ -1,0 +1,96 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 2 (0x2)
+    Signature Algorithm: sha256WithRSAEncryption
+        Issuer: C=GB, L=London, O=Example, OU=Sandobox, CN=Example CA/name=EasyRSA/emailAddress=mail@example.com
+        Validity
+            Not Before: Nov 18 23:34:45 2014 GMT
+            Not After : Nov 15 23:34:45 2024 GMT
+        Subject: C=GB, L=London, O=Example, OU=Sandobox, CN=webserver/name=EasyRSA/emailAddress=mail@example.com
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (2048 bit)
+                Modulus:
+                    00:bb:dd:34:ad:0d:97:e4:ea:92:7e:bd:e4:eb:7e:
+                    e0:a9:df:ab:fe:e8:12:67:ae:fc:53:71:74:55:85:
+                    79:d8:ca:00:c9:a9:ea:a8:2d:75:8b:a5:d1:ef:2a:
+                    a3:13:77:9a:33:1b:3f:09:e9:c4:83:23:41:b8:6c:
+                    58:e4:be:30:26:a6:43:f3:8f:ef:43:bd:0c:e0:d4:
+                    a4:2f:f6:1e:91:49:55:e8:b6:6e:b4:52:bb:e8:92:
+                    ae:6d:47:18:a3:a4:75:76:67:1e:39:87:95:bd:ca:
+                    f0:bf:bd:32:ed:98:b8:c9:8d:cb:24:26:b8:b0:0a:
+                    09:cd:b9:8e:07:32:65:4b:c5:f7:9a:05:34:5e:6c:
+                    c9:ad:d0:c5:d0:81:90:61:26:6e:32:49:7a:2f:20:
+                    ab:cb:69:7d:fb:ba:a9:9c:2b:6d:7e:c7:a5:a1:0b:
+                    dc:bd:66:de:e2:2f:65:7f:fc:2e:67:a4:d4:45:f1:
+                    90:fc:75:b9:fb:ca:e8:34:3f:83:1f:00:aa:38:3a:
+                    01:e5:5b:75:69:25:bc:61:24:71:8a:8d:1c:0a:b5:
+                    d2:d0:76:68:e6:ca:9c:5b:87:a5:3a:a2:c5:57:79:
+                    7d:47:c8:51:d0:d2:90:08:11:81:88:29:03:ff:5c:
+                    d1:17:b5:83:a6:11:13:bc:cf:b7:c3:68:0b:75:ea:
+                    07:4f
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Basic Constraints: 
+                CA:FALSE
+            Netscape Comment: 
+                Easy-RSA Generated Certificate
+            X509v3 Subject Key Identifier: 
+                D2:86:FB:22:2F:EE:EB:E4:AF:AF:16:51:0C:C4:1D:A7:39:95:23:23
+            X509v3 Authority Key Identifier: 
+                keyid:0F:5F:19:78:8C:7D:00:00:B1:A6:2D:5E:0A:A8:9E:D3:48:34:4D:4A
+                DirName:/C=GB/L=London/O=Example/OU=Sandobox/CN=Example CA/name=EasyRSA/emailAddress=mail@example.com
+                serial:EB:A5:D4:28:AF:FA:29:35
+
+            X509v3 Extended Key Usage: 
+                TLS Web Client Authentication
+            X509v3 Key Usage: 
+                Digital Signature
+            X509v3 Subject Alternative Name: 
+                DNS:webserver
+    Signature Algorithm: sha256WithRSAEncryption
+         b8:46:e5:56:a4:e4:a1:d9:59:71:ac:49:0c:ad:9a:30:dc:1f:
+         92:43:72:f3:78:b4:f1:bd:28:ef:c2:75:12:88:b3:c8:21:65:
+         47:80:05:28:50:79:d7:61:07:34:10:f1:30:e6:9f:6a:b1:27:
+         ce:69:7e:1d:6d:1a:21:f3:07:4c:1f:19:8a:a2:c0:fd:ad:7b:
+         7b:26:c9:28:b2:65:e2:ee:32:56:76:4d:e7:5c:19:6c:d8:1d:
+         66:77:57:77:fe:e0:6c:25:97:5d:39:2f:a5:0d:f7:ac:16:7e:
+         56:a7:f8:9c:01:b5:8a:ab:83:7d:7b:a1:8d:bf:bb:d5:e8:e8:
+         37:3a:dc:8a:cb:5c:48:8b:30:d6:b2:3c:24:58:e0:1b:4f:c4:
+         9a:83:dc:cc:e5:ee:65:45:98:75:7a:29:a2:20:af:0f:2e:1f:
+         3e:f6:5f:1a:46:50:c7:7d:cc:55:45:b1:4c:d9:93:db:f6:d1:
+         7e:b2:d1:7e:eb:15:f6:23:6d:78:79:f5:11:10:37:fa:09:dc:
+         1d:87:ce:6e:ac:06:52:09:ed:f2:0f:06:97:8b:55:65:6d:9e:
+         b2:95:ac:df:99:80:58:0b:e9:0e:5f:01:29:56:68:e6:97:87:
+         3e:d5:c5:b9:ec:2d:50:0d:17:24:e8:52:03:9d:40:1c:cf:60:
+         30:5e:ee:5c
+-----BEGIN CERTIFICATE-----
+MIIE7DCCA9SgAwIBAgIBAjANBgkqhkiG9w0BAQsFADCBizELMAkGA1UEBhMCR0Ix
+DzANBgNVBAcTBkxvbmRvbjEQMA4GA1UEChMHRXhhbXBsZTERMA8GA1UECxMIU2Fu
+ZG9ib3gxEzARBgNVBAMTCkV4YW1wbGUgQ0ExEDAOBgNVBCkTB0Vhc3lSU0ExHzAd
+BgkqhkiG9w0BCQEWEG1haWxAZXhhbXBsZS5jb20wHhcNMTQxMTE4MjMzNDQ1WhcN
+MjQxMTE1MjMzNDQ1WjCBijELMAkGA1UEBhMCR0IxDzANBgNVBAcTBkxvbmRvbjEQ
+MA4GA1UEChMHRXhhbXBsZTERMA8GA1UECxMIU2FuZG9ib3gxEjAQBgNVBAMTCXdl
+YnNlcnZlcjEQMA4GA1UEKRMHRWFzeVJTQTEfMB0GCSqGSIb3DQEJARYQbWFpbEBl
+eGFtcGxlLmNvbTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALvdNK0N
+l+Tqkn695Ot+4Knfq/7oEmeu/FNxdFWFedjKAMmp6qgtdYul0e8qoxN3mjMbPwnp
+xIMjQbhsWOS+MCamQ/OP70O9DODUpC/2HpFJVei2brRSu+iSrm1HGKOkdXZnHjmH
+lb3K8L+9Mu2YuMmNyyQmuLAKCc25jgcyZUvF95oFNF5sya3QxdCBkGEmbjJJei8g
+q8tpffu6qZwrbX7HpaEL3L1m3uIvZX/8Lmek1EXxkPx1ufvK6DQ/gx8Aqjg6AeVb
+dWklvGEkcYqNHAq10tB2aObKnFuHpTqixVd5fUfIUdDSkAgRgYgpA/9c0Re1g6YR
+E7zPt8NoC3XqB08CAwEAAaOCAVgwggFUMAkGA1UdEwQCMAAwLQYJYIZIAYb4QgEN
+BCAWHkVhc3ktUlNBIEdlbmVyYXRlZCBDZXJ0aWZpY2F0ZTAdBgNVHQ4EFgQU0ob7
+Ii/u6+SvrxZRDMQdpzmVIyMwgcAGA1UdIwSBuDCBtYAUD18ZeIx9AACxpi1eCqie
+00g0TUqhgZGkgY4wgYsxCzAJBgNVBAYTAkdCMQ8wDQYDVQQHEwZMb25kb24xEDAO
+BgNVBAoTB0V4YW1wbGUxETAPBgNVBAsTCFNhbmRvYm94MRMwEQYDVQQDEwpFeGFt
+cGxlIENBMRAwDgYDVQQpEwdFYXN5UlNBMR8wHQYJKoZIhvcNAQkBFhBtYWlsQGV4
+YW1wbGUuY29tggkA66XUKK/6KTUwEwYDVR0lBAwwCgYIKwYBBQUHAwIwCwYDVR0P
+BAQDAgeAMBQGA1UdEQQNMAuCCXdlYnNlcnZlcjANBgkqhkiG9w0BAQsFAAOCAQEA
+uEblVqTkodlZcaxJDK2aMNwfkkNy83i08b0o78J1EoizyCFlR4AFKFB512EHNBDx
+MOafarEnzml+HW0aIfMHTB8ZiqLA/a17eybJKLJl4u4yVnZN51wZbNgdZndXd/7g
+bCWXXTkvpQ33rBZ+Vqf4nAG1iquDfXuhjb+71ejoNzrcistcSIsw1rI8JFjgG0/E
+moPczOXuZUWYdXopoiCvDy4fPvZfGkZQx33MVUWxTNmT2/bRfrLRfusV9iNteHn1
+ERA3+gncHYfObqwGUgnt8g8Gl4tVZW2espWs35mAWAvpDl8BKVZo5peHPtXFuewt
+UA0XJOhSA51AHM9gMF7uXA==
+-----END CERTIFICATE-----
